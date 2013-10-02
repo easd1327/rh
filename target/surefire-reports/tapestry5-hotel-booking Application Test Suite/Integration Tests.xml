@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Integration Tests" failures="7" tests="7" time="23.213" errors="0">
+  <properties/>
+  <testcase name="signin" time="3.317" classname="com.tap5.hotelbooking.test.integration.BookHotelTest">
+    <failure type="com.thoughtworks.selenium.SeleniumException" message="ERROR: Invalid xpath [2]: //form[@id=&amp;apos;loginForm&amp;apos;]//input[@type=&amp;apos;submit&amp;apos;]">
+      <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
+	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="bookProcess" time="0.443" classname="com.tap5.hotelbooking.test.integration.BookHotelTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="logout" time="0.794" classname="com.tap5.hotelbooking.test.integration.BookHotelTest">
+    <failure type="java.lang.AssertionError" message="Authenticated user should be able to logout expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="signin" time="0.305" classname="com.tap5.hotelbooking.test.integration.SearchPageTest">
+    <failure type="com.thoughtworks.selenium.SeleniumException" message="ERROR: Invalid xpath [2]: //form[@id=&amp;apos;loginForm&amp;apos;]//input[@type=&amp;apos;submit&amp;apos;]">
+      <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
+	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="wildcardSearch" time="0.282" classname="com.tap5.hotelbooking.test.integration.SearchPageTest">
+    <failure type="com.thoughtworks.selenium.SeleniumException" message="ERROR: Element query not found">
+      <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
+	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="changePagePerResult" time="0.319" classname="com.tap5.hotelbooking.test.integration.SearchPageTest">
+    <failure type="com.thoughtworks.selenium.SeleniumException" message="ERROR: Element query not found">
+      <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
+	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="logout" time="0.221" classname="com.tap5.hotelbooking.test.integration.SearchPageTest">
+    <failure type="java.lang.AssertionError" message="Authenticated user should be able to logout expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

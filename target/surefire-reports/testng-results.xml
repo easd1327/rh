@@ -1,0 +1,491 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="tapestry5-hotel-booking Application Test Suite" duration-ms="23235" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:25Z">
+    <groups>
+      <group name="booking">
+        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess()" name="bookProcess" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
+        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.logout()" name="logout" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
+        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.signin()" name="signin" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
+      </group>
+      <group name="search">
+        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult()" name="changePagePerResult" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
+        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.logout()" name="logout" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
+        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.signin()" name="signin" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
+        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch()" name="wildcardSearch" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
+      </group>
+    </groups>
+    <test name="Integration Tests" duration-ms="23213" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:25Z">
+      <class name="com.tap5.hotelbooking.test.integration.BookHotelTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5facd7f]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="17" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.signin()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="3317" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:21Z">
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
+	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:21Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="8" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="bookProcess()" name="bookProcess" duration-ms="443" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:22Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="24" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.logout()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="794" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Authenticated user should be able to logout expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at com.tap5.hotelbooking.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        </test-method>
+      </class>
+      <class name="com.tap5.hotelbooking.test.integration.SearchPageTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5facd7f]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="11" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.signin()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="305" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
+	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="11" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="wildcardSearch()" name="wildcardSearch" duration-ms="282" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Element query not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
+	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="9" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="changePagePerResult()" name="changePagePerResult" duration-ms="319" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:24Z">
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Element query not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
+	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
+	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="7" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.logout()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="221" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Authenticated user should be able to logout expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at com.tap5.hotelbooking.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:627)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:798)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1009)
+	at org.testng.TestRunner.privateRun(TestRunner.java:683)
+	at org.testng.TestRunner.run(TestRunner.java:553)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:311)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:268)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:217)
+	at org.testng.TestNG.runSuite(TestNG.java:1062)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:956)
+	at org.testng.TestNG.run(TestNG.java:874)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:72)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        </test-method>
+        <test-method status="PASS" signature="testShutdown(org.testng.ITestContext)" name="testShutdown" is-config="true" duration-ms="690" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5facd7f]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="org.apache.tapestry5.test.SeleniumLauncher">
+        <test-method status="PASS" signature="startup()" name="startup" is-config="true" duration-ms="6" depends-on-groups="beforeStartup" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:01Z">
+        </test-method>
+        <test-method status="PASS" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)" name="testStartup" is-config="true" duration-ms="16718" depends-on-groups="beforeStartup" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5facd7f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "Integration Tests" verbose:null[parameters:][metagroups:] [included: ][excluded: ]  classes:[Class: org.apache.tapestry5.test.SeleniumLauncher] [Class: com.tap5.hotelbooking.test.integration.BaseIntegrationTestSuite] [Class: com.tap5.hotelbooking.test.integration.BookHotelTest] [Class: com.tap5.hotelbooking.test.integration.SearchPageTest] ] ]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="Unit Tests" duration-ms="0" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:01Z">
+    </test>
+  </suite>
+</testng-results>
