@@ -2,11 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.tap5.hotelbooking</groupId>
-	<artifactId>tapestry5-hotel-booking</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>tapestry5-hotel-booking Tapestry 5 Application</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.tapestry</groupId>
@@ -104,6 +101,24 @@
 			<artifactId>kaptcha</artifactId>
 			<version>2.3.2</version>
 		</dependency>
+		
+		<!-- This adds automatic compression of JavaScript and CSS when in production mode. -->
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-yuicompressor</artifactId>
+            <version>${tapestry-release-version}</version>
+        </dependency>
+        
+        
+        <!-- Uncomment this to add support for file uploads:
+
+         <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-upload</artifactId>
+            <version>${tapestry-release-version}</version>
+        </dependency>
+
+        -->
 
 	</dependencies>
 	<build>
@@ -124,7 +139,7 @@
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
-				<version>6.1.9</version>
+				<version>6.1.16</version>
 				<configuration>
 					<!-- Log to the console. -->
 					<requestLog implementation="org.mortbay.jetty.NCSARequestLog">
@@ -166,7 +181,7 @@
 				<artifactId>tapestry-component-report</artifactId>
 				<version>${tapestry-release-version}</version>
 				<configuration>
-					<rootPackage>com.tap5.hotelbooking</rootPackage>
+					<rootPackage>mx.com.easd</rootPackage>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -199,4 +214,8 @@
 		<tapestry-release-version>5.3.7</tapestry-release-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<groupId>mx.com.easd</groupId>
+	<artifactId>rh</artifactId>
+	<name>RH Application</name>
+	<description>RH</description>
 </project>

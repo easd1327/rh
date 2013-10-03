@@ -1,62 +1,62 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 24.665 sec <<< FAILURE!
-signin(com.tap5.hotelbooking.test.integration.BookHotelTest)  Time elapsed: 3.32 sec  <<< FAILURE!
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 22.162 sec <<< FAILURE!
+signin(mx.com.easd.test.integration.BookHotelTest)  Time elapsed: 4.497 sec  <<< FAILURE!
 com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
+	at mx.com.easd.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
 
-bookProcess(com.tap5.hotelbooking.test.integration.BookHotelTest)  Time elapsed: 0.444 sec  <<< FAILURE!
+bookProcess(mx.com.easd.test.integration.BookHotelTest)  Time elapsed: 0.451 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<true> but was:<false>
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
 	at org.testng.Assert.assertTrue(Assert.java:47)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
+	at mx.com.easd.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
 
-logout(com.tap5.hotelbooking.test.integration.BookHotelTest)  Time elapsed: 0.795 sec  <<< FAILURE!
+logout(mx.com.easd.test.integration.BookHotelTest)  Time elapsed: 0.737 sec  <<< FAILURE!
 java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
+	at mx.com.easd.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
 
-signin(com.tap5.hotelbooking.test.integration.SearchPageTest)  Time elapsed: 0.306 sec  <<< FAILURE!
+signin(mx.com.easd.test.integration.SearchPageTest)  Time elapsed: 0.408 sec  <<< FAILURE!
 com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
+	at mx.com.easd.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
 
-wildcardSearch(com.tap5.hotelbooking.test.integration.SearchPageTest)  Time elapsed: 0.283 sec  <<< FAILURE!
+wildcardSearch(mx.com.easd.test.integration.SearchPageTest)  Time elapsed: 0.3 sec  <<< FAILURE!
 com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
+	at mx.com.easd.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
 
-changePagePerResult(com.tap5.hotelbooking.test.integration.SearchPageTest)  Time elapsed: 0.32 sec  <<< FAILURE!
+changePagePerResult(mx.com.easd.test.integration.SearchPageTest)  Time elapsed: 0.293 sec  <<< FAILURE!
 com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
+	at mx.com.easd.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
 
-logout(com.tap5.hotelbooking.test.integration.SearchPageTest)  Time elapsed: 0.222 sec  <<< FAILURE!
+logout(mx.com.easd.test.integration.SearchPageTest)  Time elapsed: 0.169 sec  <<< FAILURE!
 java.lang.AssertionError: Authenticated user should be able to logout expected:<true> but was:<false>
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
+	at mx.com.easd.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
 

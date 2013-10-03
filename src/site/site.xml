@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<project name="Generated site for tapestry5-hotel-booking">
+<project name="Generated site">
 
     <publishDate format="dd MMM yyyy"/>
 
@@ -7,7 +7,7 @@
 
     <body>
 
-        <menu name="tapestry5-hotel-booking Project">
+        <menu name="Project">
             <item name="About" href="index.html"/>
         </menu>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="7" time="24.664" errors="0" skipped="0" tests="7" name="TestSuite">
+<testsuite failures="7" time="22.162" errors="0" skipped="0" tests="7" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib"/>
@@ -22,7 +22,7 @@
     <property name="tapx.test-mode" value="true"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefirebooter2335946394406556325.jar"/>
+    <property name="surefire.real.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefirebooter9157894971240547278.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/px/p0gl18gn4759sztxy_d70jqw0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -31,7 +31,7 @@
     <property name="org.openqa.jetty.http.HttpRequest.maxFormContentSize" value="0"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/eochoa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="surefire.test.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/test-classes:/Users/eochoa/Documents/workspace_ok/rh/target/classes:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-core/5.3.7/tapestry-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar:/Users/eochoa/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/eochoa/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-json/5.3.7/tapestry-json-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-ioc/5.3.7/tapestry-ioc-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry5-annotations/5.3.7/tapestry5-annotations-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-func/5.3.7/tapestry-func-5.3.7.jar:/Users/eochoa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/plastic/5.3.7/plastic-5.3.7.jar:/Users/eochoa/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/eochoa/.m2/repository/org/testng/testng/5.13.1/testng-5.13.1.jar:/Users/eochoa/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eochoa/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/eochoa/.m2/repository/com/google/inject/guice/2.0/guice-2.0.jar:/Users/eochoa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eochoa/.m2/repository/com/beust/jcommander/1.3/jcommander-1.3.jar:/Users/eochoa/.m2/repository/org/easymock/easymock/2.4/easymock-2.4.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate/5.3.7/tapestry-hibernate-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate-core/5.3.7/tapestry-hibernate-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-core/3.6.0.Final/hibernate-core-3.6.0.Final.jar:/Users/eochoa/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/eochoa/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/eochoa/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/eochoa/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0-M1/geronimo-spec-jta-1.0-M1.jar:/Users/eochoa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/eochoa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-kaptcha/5.3.7/tapestry-kaptcha-5.3.7.jar:/Users/eochoa/.m2/repository/com/h2database/h2/1.2.142/h2-1.2.142.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-validator/4.0.2.GA/hibernate-validator-4.0.2.GA.jar:/Users/eochoa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar:/Users/eochoa/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/Users/eochoa/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/eochoa/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/eochoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-beanvalidator/5.3.7/tapestry-beanvalidator-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-test/5.3.7/tapestry-test-5.3.7.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.26.0/selenium-server-2.26.0.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/eochoa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/eochoa/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/eochoa/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-plus/7.0.0.v20091005/jetty-plus-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-webapp/7.0.0.v20091005/jetty-webapp-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-xml/7.0.0.v20091005/jetty-xml-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-util/7.0.0.v20091005/jetty-util-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.0.v20091005/jetty-servlet-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-security/7.0.0.v20091005/jetty-security-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-jndi/7.0.0.v20091005/jetty-jndi-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-server/7.0.0.v20091005/jetty-server-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-continuation/7.0.0.v20091005/jetty-continuation-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-http/7.0.0.v20091005/jetty-http-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-io/7.0.0.v20091005/jetty-io-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-java/2.26.0/selenium-java-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.26.0/selenium-android-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.26.0/selenium-remote-driver-2.26.0.jar:/Users/eochoa/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/eochoa/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/eochoa/.m2/repository/com/google/guava/guava/13.0.1/guava-13.0.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.26.0/selenium-chrome-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.26.0/selenium-htmlunit-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-api/2.26.0/selenium-api-2.26.0.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.10/htmlunit-2.10.jar:/Users/eochoa/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/eochoa/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpmime/4.2.1/httpmime-4.2.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.10/htmlunit-core-js-2.10.jar:/Users/eochoa/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar:/Users/eochoa/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.7/cssparser-0.9.7.jar:/Users/eochoa/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/eochoa/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.26.0/selenium-firefox-driver-2.26.0.jar:/Users/eochoa/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.26.0/selenium-ie-driver-2.26.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.26.0/selenium-iphone-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.26.0/selenium-safari-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-support/2.26.0/selenium-support-2.26.0.jar:/Users/eochoa/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/eochoa/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/dbcp/6.0.30/dbcp-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/coyote/6.0.30/coyote-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/servlet-api/6.0.30/servlet-api-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/juli/6.0.30/juli-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/catalina/6.0.30/catalina-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/annotations-api/6.0.30/annotations-api-6.0.30.jar:/Users/eochoa/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/eochoa/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar:/Users/eochoa/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/eochoa/.m2/repository/com/google/code/kaptcha/2.3.2/kaptcha-2.3.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/test-classes:/Users/eochoa/Documents/workspace_ok/rh/target/classes:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-core/5.3.7/tapestry-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar:/Users/eochoa/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/eochoa/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-json/5.3.7/tapestry-json-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-ioc/5.3.7/tapestry-ioc-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry5-annotations/5.3.7/tapestry5-annotations-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-func/5.3.7/tapestry-func-5.3.7.jar:/Users/eochoa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/plastic/5.3.7/plastic-5.3.7.jar:/Users/eochoa/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/eochoa/.m2/repository/org/testng/testng/5.13.1/testng-5.13.1.jar:/Users/eochoa/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eochoa/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/eochoa/.m2/repository/com/google/inject/guice/2.0/guice-2.0.jar:/Users/eochoa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eochoa/.m2/repository/com/beust/jcommander/1.3/jcommander-1.3.jar:/Users/eochoa/.m2/repository/org/easymock/easymock/2.4/easymock-2.4.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate/5.3.7/tapestry-hibernate-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate-core/5.3.7/tapestry-hibernate-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-core/3.6.0.Final/hibernate-core-3.6.0.Final.jar:/Users/eochoa/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/eochoa/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/eochoa/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/eochoa/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0-M1/geronimo-spec-jta-1.0-M1.jar:/Users/eochoa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/eochoa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-kaptcha/5.3.7/tapestry-kaptcha-5.3.7.jar:/Users/eochoa/.m2/repository/com/h2database/h2/1.2.142/h2-1.2.142.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-validator/4.0.2.GA/hibernate-validator-4.0.2.GA.jar:/Users/eochoa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar:/Users/eochoa/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/Users/eochoa/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/eochoa/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/eochoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-beanvalidator/5.3.7/tapestry-beanvalidator-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-test/5.3.7/tapestry-test-5.3.7.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.26.0/selenium-server-2.26.0.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/eochoa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/eochoa/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/eochoa/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-plus/7.0.0.v20091005/jetty-plus-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-webapp/7.0.0.v20091005/jetty-webapp-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-xml/7.0.0.v20091005/jetty-xml-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-util/7.0.0.v20091005/jetty-util-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.0.v20091005/jetty-servlet-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-security/7.0.0.v20091005/jetty-security-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-jndi/7.0.0.v20091005/jetty-jndi-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-server/7.0.0.v20091005/jetty-server-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-continuation/7.0.0.v20091005/jetty-continuation-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-http/7.0.0.v20091005/jetty-http-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-io/7.0.0.v20091005/jetty-io-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-java/2.26.0/selenium-java-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.26.0/selenium-android-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.26.0/selenium-remote-driver-2.26.0.jar:/Users/eochoa/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/eochoa/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/eochoa/.m2/repository/com/google/guava/guava/13.0.1/guava-13.0.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.26.0/selenium-chrome-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.26.0/selenium-htmlunit-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-api/2.26.0/selenium-api-2.26.0.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.10/htmlunit-2.10.jar:/Users/eochoa/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/eochoa/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpmime/4.2.1/httpmime-4.2.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.10/htmlunit-core-js-2.10.jar:/Users/eochoa/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar:/Users/eochoa/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.7/cssparser-0.9.7.jar:/Users/eochoa/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/eochoa/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.26.0/selenium-firefox-driver-2.26.0.jar:/Users/eochoa/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.26.0/selenium-ie-driver-2.26.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.26.0/selenium-iphone-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.26.0/selenium-safari-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-support/2.26.0/selenium-support-2.26.0.jar:/Users/eochoa/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/eochoa/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/dbcp/6.0.30/dbcp-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/coyote/6.0.30/coyote-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/servlet-api/6.0.30/servlet-api-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/juli/6.0.30/juli-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/catalina/6.0.30/catalina-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/annotations-api/6.0.30/annotations-api-6.0.30.jar:/Users/eochoa/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/eochoa/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar:/Users/eochoa/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/eochoa/.m2/repository/com/google/code/kaptcha/2.3.2/kaptcha-2.3.2.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-yuicompressor/5.3.7/tapestry-yuicompressor-5.3.7.jar:/Users/eochoa/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.7/yuicompressor-2.4.7.jar:/Users/eochoa/.m2/repository/rhino/js/1.6R7/js-1.6R7.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,11 +43,11 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="eochoa"/>
-    <property name="java.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/test-classes:/Users/eochoa/Documents/workspace_ok/rh/target/classes:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-core/5.3.7/tapestry-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar:/Users/eochoa/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/eochoa/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-json/5.3.7/tapestry-json-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-ioc/5.3.7/tapestry-ioc-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry5-annotations/5.3.7/tapestry5-annotations-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-func/5.3.7/tapestry-func-5.3.7.jar:/Users/eochoa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/plastic/5.3.7/plastic-5.3.7.jar:/Users/eochoa/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/eochoa/.m2/repository/org/testng/testng/5.13.1/testng-5.13.1.jar:/Users/eochoa/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eochoa/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/eochoa/.m2/repository/com/google/inject/guice/2.0/guice-2.0.jar:/Users/eochoa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eochoa/.m2/repository/com/beust/jcommander/1.3/jcommander-1.3.jar:/Users/eochoa/.m2/repository/org/easymock/easymock/2.4/easymock-2.4.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate/5.3.7/tapestry-hibernate-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate-core/5.3.7/tapestry-hibernate-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-core/3.6.0.Final/hibernate-core-3.6.0.Final.jar:/Users/eochoa/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/eochoa/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/eochoa/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/eochoa/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0-M1/geronimo-spec-jta-1.0-M1.jar:/Users/eochoa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/eochoa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-kaptcha/5.3.7/tapestry-kaptcha-5.3.7.jar:/Users/eochoa/.m2/repository/com/h2database/h2/1.2.142/h2-1.2.142.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-validator/4.0.2.GA/hibernate-validator-4.0.2.GA.jar:/Users/eochoa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar:/Users/eochoa/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/Users/eochoa/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/eochoa/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/eochoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-beanvalidator/5.3.7/tapestry-beanvalidator-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-test/5.3.7/tapestry-test-5.3.7.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.26.0/selenium-server-2.26.0.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/eochoa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/eochoa/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/eochoa/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-plus/7.0.0.v20091005/jetty-plus-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-webapp/7.0.0.v20091005/jetty-webapp-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-xml/7.0.0.v20091005/jetty-xml-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-util/7.0.0.v20091005/jetty-util-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.0.v20091005/jetty-servlet-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-security/7.0.0.v20091005/jetty-security-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-jndi/7.0.0.v20091005/jetty-jndi-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-server/7.0.0.v20091005/jetty-server-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-continuation/7.0.0.v20091005/jetty-continuation-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-http/7.0.0.v20091005/jetty-http-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-io/7.0.0.v20091005/jetty-io-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-java/2.26.0/selenium-java-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.26.0/selenium-android-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.26.0/selenium-remote-driver-2.26.0.jar:/Users/eochoa/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/eochoa/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/eochoa/.m2/repository/com/google/guava/guava/13.0.1/guava-13.0.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.26.0/selenium-chrome-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.26.0/selenium-htmlunit-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-api/2.26.0/selenium-api-2.26.0.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.10/htmlunit-2.10.jar:/Users/eochoa/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/eochoa/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpmime/4.2.1/httpmime-4.2.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.10/htmlunit-core-js-2.10.jar:/Users/eochoa/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar:/Users/eochoa/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.7/cssparser-0.9.7.jar:/Users/eochoa/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/eochoa/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.26.0/selenium-firefox-driver-2.26.0.jar:/Users/eochoa/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.26.0/selenium-ie-driver-2.26.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.26.0/selenium-iphone-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.26.0/selenium-safari-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-support/2.26.0/selenium-support-2.26.0.jar:/Users/eochoa/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/eochoa/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/dbcp/6.0.30/dbcp-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/coyote/6.0.30/coyote-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/servlet-api/6.0.30/servlet-api-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/juli/6.0.30/juli-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/catalina/6.0.30/catalina-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/annotations-api/6.0.30/annotations-api-6.0.30.jar:/Users/eochoa/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/eochoa/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar:/Users/eochoa/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/eochoa/.m2/repository/com/google/code/kaptcha/2.3.2/kaptcha-2.3.2.jar:"/>
+    <property name="java.class.path" value="/Users/eochoa/Documents/workspace_ok/rh/target/test-classes:/Users/eochoa/Documents/workspace_ok/rh/target/classes:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-core/5.3.7/tapestry-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar:/Users/eochoa/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/eochoa/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-json/5.3.7/tapestry-json-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-ioc/5.3.7/tapestry-ioc-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry5-annotations/5.3.7/tapestry5-annotations-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-func/5.3.7/tapestry-func-5.3.7.jar:/Users/eochoa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/plastic/5.3.7/plastic-5.3.7.jar:/Users/eochoa/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/eochoa/.m2/repository/org/testng/testng/5.13.1/testng-5.13.1.jar:/Users/eochoa/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eochoa/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/eochoa/.m2/repository/com/google/inject/guice/2.0/guice-2.0.jar:/Users/eochoa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/eochoa/.m2/repository/com/beust/jcommander/1.3/jcommander-1.3.jar:/Users/eochoa/.m2/repository/org/easymock/easymock/2.4/easymock-2.4.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate/5.3.7/tapestry-hibernate-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-hibernate-core/5.3.7/tapestry-hibernate-core-5.3.7.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-core/3.6.0.Final/hibernate-core-3.6.0.Final.jar:/Users/eochoa/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/eochoa/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/Users/eochoa/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/eochoa/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0-M1/geronimo-spec-jta-1.0-M1.jar:/Users/eochoa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/eochoa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-kaptcha/5.3.7/tapestry-kaptcha-5.3.7.jar:/Users/eochoa/.m2/repository/com/h2database/h2/1.2.142/h2-1.2.142.jar:/Users/eochoa/.m2/repository/org/hibernate/hibernate-validator/4.0.2.GA/hibernate-validator-4.0.2.GA.jar:/Users/eochoa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar:/Users/eochoa/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar:/Users/eochoa/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/eochoa/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/eochoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-beanvalidator/5.3.7/tapestry-beanvalidator-5.3.7.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-test/5.3.7/tapestry-test-5.3.7.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.26.0/selenium-server-2.26.0.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar:/Users/eochoa/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/eochoa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/eochoa/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/eochoa/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-plus/7.0.0.v20091005/jetty-plus-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-webapp/7.0.0.v20091005/jetty-webapp-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-xml/7.0.0.v20091005/jetty-xml-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-util/7.0.0.v20091005/jetty-util-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.0.v20091005/jetty-servlet-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-security/7.0.0.v20091005/jetty-security-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-jndi/7.0.0.v20091005/jetty-jndi-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-server/7.0.0.v20091005/jetty-server-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-continuation/7.0.0.v20091005/jetty-continuation-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-http/7.0.0.v20091005/jetty-http-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/eclipse/jetty/jetty-io/7.0.0.v20091005/jetty-io-7.0.0.v20091005.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-java/2.26.0/selenium-java-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.26.0/selenium-android-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.26.0/selenium-remote-driver-2.26.0.jar:/Users/eochoa/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/eochoa/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/eochoa/.m2/repository/com/google/guava/guava/13.0.1/guava-13.0.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.26.0/selenium-chrome-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.26.0/selenium-htmlunit-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-api/2.26.0/selenium-api-2.26.0.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.10/htmlunit-2.10.jar:/Users/eochoa/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/eochoa/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpmime/4.2.1/httpmime-4.2.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.10/htmlunit-core-js-2.10.jar:/Users/eochoa/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/eochoa/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar:/Users/eochoa/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.7/cssparser-0.9.7.jar:/Users/eochoa/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/eochoa/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar:/Users/eochoa/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.26.0/selenium-firefox-driver-2.26.0.jar:/Users/eochoa/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar:/Users/eochoa/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.26.0/selenium-ie-driver-2.26.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/eochoa/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.26.0/selenium-iphone-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.26.0/selenium-safari-driver-2.26.0.jar:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-support/2.26.0/selenium-support-2.26.0.jar:/Users/eochoa/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/eochoa/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/dbcp/6.0.30/dbcp-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/coyote/6.0.30/coyote-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/servlet-api/6.0.30/servlet-api-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/juli/6.0.30/juli-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/catalina/6.0.30/catalina-6.0.30.jar:/Users/eochoa/.m2/repository/org/apache/tomcat/annotations-api/6.0.30/annotations-api-6.0.30.jar:/Users/eochoa/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/eochoa/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar:/Users/eochoa/.m2/repository/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar:/Users/eochoa/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/eochoa/.m2/repository/com/google/code/kaptcha/2.3.2/kaptcha-2.3.2.jar:/Users/eochoa/.m2/repository/org/apache/tapestry/tapestry-yuicompressor/5.3.7/tapestry-yuicompressor-5.3.7.jar:/Users/eochoa/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.7/yuicompressor-2.4.7.jar:/Users/eochoa/.m2/repository/rhino/js/1.6R7/js-1.6R7.jar:"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="/Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefirebooter2335946394406556325.jar /Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefire3511365001662626807tmp /Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefire6649902783237216044tmp"/>
+    <property name="sun.java.command" value="/Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefirebooter9157894971240547278.jar /Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefire3134659254832151204tmp /Users/eochoa/Documents/workspace_ok/rh/target/surefire/surefire7068578854493380635tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -65,14 +65,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="3.321" classname="com.tap5.hotelbooking.test.integration.BookHotelTest" name="signin">
+  <testcase time="4.498" classname="mx.com.easd.test.integration.BookHotelTest" name="signin">
     <failure message="ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]" type="com.thoughtworks.selenium.SeleniumException">com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
+	at mx.com.easd.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
 </failure>
     <system-out>@HL
 @HL-------------------------------------------------------
@@ -88,35 +88,36 @@
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.hibernate.HibernateCoreModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.kaptcha.services.KaptchaModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.beanvalidator.BeanValidatorModule
+[INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.yuicompressor.services.YuiCompressorModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.services.TapestryModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.internal.services.InternalModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.services.assets.AssetsModule
 [INFO] ioc.RegistryBuilder Adding module definition for class org.apache.tapestry5.services.pageload.PageLoadModule
-[INFO] ioc.RegistryBuilder Adding module definition for class com.tap5.hotelbooking.services.HotelBookingModule
-[INFO] ioc.RegistryBuilder Adding module definition for class com.tap5.hotelbooking.dal.HibernateModule
-[INFO] ioc.RegistryBuilder Adding module definition for class com.tap5.hotelbooking.dal.DataModule
+[INFO] ioc.RegistryBuilder Adding module definition for class mx.com.easd.services.RhModule
+[INFO] ioc.RegistryBuilder Adding module definition for class mx.com.easd.dal.HibernateModule
+[INFO] ioc.RegistryBuilder Adding module definition for class mx.com.easd.dal.DataModule
 [INFO] TapestryModule.ComponentClassResolver Available pages (14):
-              (blank): com.tap5.hotelbooking.pages.Index
-                 Book: com.tap5.hotelbooking.pages.Book
+              (blank): mx.com.easd.pages.Index
+                 Book: mx.com.easd.pages.Book
       ExceptionReport: org.apache.tapestry5.corelib.pages.ExceptionReport
-                Index: com.tap5.hotelbooking.pages.Index
+                Index: mx.com.easd.pages.Index
     KaptchaEditBlocks: org.apache.tapestry5.kaptcha.pages.KaptchaEditBlocks
           PageCatalog: org.apache.tapestry5.corelib.pages.PageCatalog
 PropertyDisplayBlocks: org.apache.tapestry5.corelib.pages.PropertyDisplayBlocks
    PropertyEditBlocks: org.apache.tapestry5.corelib.pages.PropertyEditBlocks
-               Search: com.tap5.hotelbooking.pages.Search
+               Search: mx.com.easd.pages.Search
         ServiceStatus: org.apache.tapestry5.corelib.pages.ServiceStatus
-             Settings: com.tap5.hotelbooking.pages.Settings
-               Signin: com.tap5.hotelbooking.pages.Signin
-               Signup: com.tap5.hotelbooking.pages.Signup
-                 View: com.tap5.hotelbooking.pages.View
+             Settings: mx.com.easd.pages.Settings
+               Signin: mx.com.easd.pages.Signin
+               Signup: mx.com.easd.pages.Signup
+                 View: mx.com.easd.pages.View
  hibernate/Statistics: org.apache.tapestry5.hibernate.pages.Statistics
 
 [INFO] TapestryModule.ComponentClassResolver Available components (62):
                ActionLink: org.apache.tapestry5.corelib.components.ActionLink
                AddRowLink: org.apache.tapestry5.corelib.components.AddRowLink
              AjaxFormLoop: org.apache.tapestry5.corelib.components.AjaxFormLoop
-               AjaxLoader: com.tap5.hotelbooking.components.AjaxLoader
+               AjaxLoader: mx.com.easd.components.AjaxLoader
                    Alerts: org.apache.tapestry5.corelib.components.Alerts
                       Any: org.apache.tapestry5.corelib.components.Any
               BeanDisplay: org.apache.tapestry5.corelib.components.BeanDisplay
@@ -141,12 +142,12 @@ PropertyDisplayBlocks: org.apache.tapestry5.corelib.pages.PropertyDisplayBlocks
                 GridPager: org.apache.tapestry5.corelib.components.GridPager
                  GridRows: org.apache.tapestry5.corelib.components.GridRows
                    Hidden: org.apache.tapestry5.corelib.components.Hidden
-               HotelClass: com.tap5.hotelbooking.components.HotelClass
+               HotelClass: mx.com.easd.components.HotelClass
                        If: org.apache.tapestry5.corelib.components.If
              KaptchaField: org.apache.tapestry5.kaptcha.components.KaptchaField
              KaptchaImage: org.apache.tapestry5.kaptcha.components.KaptchaImage
                     Label: org.apache.tapestry5.corelib.components.Label
-                   Layout: com.tap5.hotelbooking.components.Layout
+                   Layout: mx.com.easd.components.Layout
                LinkSubmit: org.apache.tapestry5.corelib.components.LinkSubmit
                      Loop: org.apache.tapestry5.corelib.components.Loop
                    Output: org.apache.tapestry5.corelib.components.Output
@@ -170,10 +171,10 @@ PropertyDisplayBlocks: org.apache.tapestry5.corelib.pages.PropertyDisplayBlocks
                      Tree: org.apache.tapestry5.corelib.components.Tree
                   Trigger: org.apache.tapestry5.corelib.components.Trigger
                    Unless: org.apache.tapestry5.corelib.components.Unless
-                Workspace: com.tap5.hotelbooking.components.Workspace
-             YourBookings: com.tap5.hotelbooking.components.YourBookings
+                Workspace: mx.com.easd.components.Workspace
+             YourBookings: mx.com.easd.components.YourBookings
                      Zone: org.apache.tapestry5.corelib.components.Zone
-   security/Authenticated: com.tap5.hotelbooking.components.security.Authenticated
+   security/Authenticated: mx.com.easd.components.security.Authenticated
 t5internal/InternalLayout: org.apache.tapestry5.internal.t5internal.components.InternalLayout
 
 [INFO] TapestryModule.ComponentClassResolver Available mixins (11):
@@ -191,12 +192,12 @@ RenderNotification: org.apache.tapestry5.corelib.mixins.RenderNotification
 
 [DEBUG] HibernateModule.CrudServiceDAO Creating proxy for service CrudServiceDAO
 [INFO] dal.DataModule -- Loading initial demo data
-[DEBUG] HibernateModule.CrudServiceDAO Invoking method com.tap5.hotelbooking.dal.HibernateModule.adviseTransactions(HibernateTransactionAdvisor, MethodAdviceReceiver) (at HibernateModule.java:36)
-[DEBUG] HibernateModule.CrudServiceDAO Loading class com.tap5.hotelbooking.dal.HibernateCrudServiceDAO.
-[DEBUG] HibernateModule.CrudServiceDAO Marking class com.tap5.hotelbooking.dal.HibernateCrudServiceDAO to be (re-)loaded
-[DEBUG] HibernateModule.CrudServiceDAO BEGIN Analyzing com.tap5.hotelbooking.dal.HibernateCrudServiceDAO
-[DEBUG] HibernateModule.CrudServiceDAO   END Analyzing com.tap5.hotelbooking.dal.HibernateCrudServiceDAO
-[DEBUG] HibernateModule.CrudServiceDAO Invoking constructor public com.tap5.hotelbooking.dal.HibernateCrudServiceDAO() (for service &apos;CrudServiceDAO&apos;)
+[DEBUG] HibernateModule.CrudServiceDAO Invoking method mx.com.easd.dal.HibernateModule.adviseTransactions(HibernateTransactionAdvisor, MethodAdviceReceiver) (at HibernateModule.java:36)
+[DEBUG] HibernateModule.CrudServiceDAO Loading class mx.com.easd.dal.HibernateCrudServiceDAO.
+[DEBUG] HibernateModule.CrudServiceDAO Marking class mx.com.easd.dal.HibernateCrudServiceDAO to be (re-)loaded
+[DEBUG] HibernateModule.CrudServiceDAO BEGIN Analyzing mx.com.easd.dal.HibernateCrudServiceDAO
+[DEBUG] HibernateModule.CrudServiceDAO   END Analyzing mx.com.easd.dal.HibernateCrudServiceDAO
+[DEBUG] HibernateModule.CrudServiceDAO Invoking constructor public mx.com.easd.dal.HibernateCrudServiceDAO() (for service &apos;CrudServiceDAO&apos;)
 [INFO] common.Version Hibernate Commons Annotations 3.2.0.Final
 [INFO] cfg.Environment Hibernate 3.6.0.Final
 [INFO] cfg.Environment hibernate.properties not found
@@ -206,18 +207,18 @@ RenderNotification: org.apache.tapestry5.corelib.mixins.RenderNotification
 [INFO] cfg.Configuration Configuration resource: /hibernate.cfg.xml
 [WARN] util.DTDEntityResolver recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
 [INFO] cfg.Configuration Configured SessionFactory: null
-[INFO] cfg.Configuration Mapping package com.tap5.hotelbooking.entities
-[WARN] cfg.AnnotationBinder Package not found or wo package-info.java: com.tap5.hotelbooking.entities
-[INFO] cfg.AnnotationBinder Binding entity from annotated class: com.tap5.hotelbooking.entities.Booking
+[INFO] cfg.Configuration Mapping package mx.com.easd.entities
+[WARN] cfg.AnnotationBinder Package not found or wo package-info.java: mx.com.easd.entities
+[INFO] cfg.AnnotationBinder Binding entity from annotated class: mx.com.easd.entities.Booking
 [INFO] annotations.QueryBinder Binding Named query: Booking.byUsername =&gt; Select b from Booking b where b.user.username = :username
-[INFO] annotations.EntityBinder Bind entity com.tap5.hotelbooking.entities.Booking on table bookings
-[INFO] cfg.AnnotationBinder Binding entity from annotated class: com.tap5.hotelbooking.entities.Hotel
-[INFO] annotations.EntityBinder Bind entity com.tap5.hotelbooking.entities.Hotel on table hotel
-[INFO] cfg.AnnotationBinder Binding entity from annotated class: com.tap5.hotelbooking.entities.User
+[INFO] annotations.EntityBinder Bind entity mx.com.easd.entities.Booking on table bookings
+[INFO] cfg.AnnotationBinder Binding entity from annotated class: mx.com.easd.entities.Hotel
+[INFO] annotations.EntityBinder Bind entity mx.com.easd.entities.Hotel on table hotel
+[INFO] cfg.AnnotationBinder Binding entity from annotated class: mx.com.easd.entities.User
 [INFO] annotations.QueryBinder Binding Named query: User.all =&gt; Select u from User u
 [INFO] annotations.QueryBinder Binding Named query: User.byUserNameOrEmail =&gt; Select u from User u where u.username = :username or u.email = :email
 [INFO] annotations.QueryBinder Binding Named query: User.byCredentials =&gt; Select u from User u where u.username = :username and u.password = :password
-[INFO] annotations.EntityBinder Bind entity com.tap5.hotelbooking.entities.User on table users
+[INFO] annotations.EntityBinder Bind entity mx.com.easd.entities.User on table users
 [INFO] cfg.Configuration Hibernate Validator not found: ignoring
 [INFO] util.Version Hibernate Validator 4.0.2.GA
 [INFO] resolver.DefaultTraversableResolver Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
@@ -281,8 +282,8 @@ RenderNotification: org.apache.tapestry5.corelib.mixins.RenderNotification
 [INFO] hbm2ddl.DatabaseMetadata table not found: hotel
 [INFO] hbm2ddl.DatabaseMetadata table not found: users
 [INFO] hbm2ddl.SchemaUpdate schema update complete
-[INFO] HibernateCoreModule.HibernateSessionSource Hibernate startup: 480 ms to configure, 1.858 ms overall.
-[INFO] HibernateCoreModule.HibernateSessionSource Configured Hibernate entities: com.tap5.hotelbooking.entities.Booking, com.tap5.hotelbooking.entities.Hotel, com.tap5.hotelbooking.entities.User
+[INFO] HibernateCoreModule.HibernateSessionSource Hibernate startup: 380 ms to configure, 1.396 ms overall.
+[INFO] HibernateCoreModule.HibernateSessionSource Configured Hibernate entities: mx.com.easd.entities.Booking, mx.com.easd.entities.Hotel, mx.com.easd.entities.User
 Hibernate: 
     insert 
     into
@@ -1069,7 +1070,7 @@ SessionApplicationStatePersistenceStrategy: DEFINED
 
 82.84% unrealized services (169/204)
 
-Application &apos;hotelBooking&apos; (version 1.2-SNAPSHOT) startup time: 578 ms to build IoC Registry, 3,930 ms overall.
+Application &apos;rh&apos; (version 1.2-SNAPSHOT) startup time: 441 ms to build IoC Registry, 3,233 ms overall.
 
  ______                  __             ____
 /_  __/__ ____  ___ ___ / /_______ __  / __/
@@ -1087,45 +1088,91 @@ Application &apos;hotelBooking&apos; (version 1.2-SNAPSHOT) startup time: 578 ms
 [INFO] util.Container Started HttpContext[/selenium-server/driver,/selenium-server/driver]
 [INFO] util.Container Started HttpContext[/selenium-server,/selenium-server]
 [INFO] util.Container Started HttpContext[/,/]
-[INFO] util.Container Started org.openqa.jetty.jetty.servlet.ServletHandler@34182bd5
+[INFO] util.Container Started org.openqa.jetty.jetty.servlet.ServletHandler@6538e583
 [INFO] util.Container Started HttpContext[/wd,/wd]
 [INFO] http.SocketListener Started SocketListener on 0.0.0.0:4444
-[INFO] util.Container Started org.openqa.jetty.jetty.Server@6028c141
+[INFO] util.Container Started org.openqa.jetty.jetty.Server@23ca4f4f
 [INFO] util.Credential Checking Resource aliases
-12:13:12.975 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:9090/, ] on session null
-12:13:12.981 INFO - creating new remote session
-12:13:13.013 INFO - Allocated session 3a2ca99bfa324006b31fa2c09a459ca2 for http://localhost:9090/, launching...
+16:55:09.336 INFO - Command request: getNewBrowserSession[*firefox, http://localhost:9090/, ] on session null
+16:55:09.339 INFO - creating new remote session
+16:55:09.351 INFO - Allocated session 2ac5307ef388407eb56b2fb05f72d313 for http://localhost:9090/, launching...
 jar:file:/Users/eochoa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.26.0/selenium-server-2.26.0.jar!/customProfileDirCUSTFFCHROME
-12:13:13.101 INFO - Preparing Firefox profile...
-12:13:15.336 INFO - Launching Firefox...
-12:13:18.529 INFO - Got result: OK,3a2ca99bfa324006b31fa2c09a459ca2 on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:18.548 INFO - Command request: setContext[BookHotelTest: signin, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:18.560 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:18.565 INFO - Command request: open[/signin, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-[DEBUG] HotelBookingModule.Authenticator Creating proxy for service Authenticator
-[DEBUG] security.AuthenticationFilter Loading class com.tap5.hotelbooking.security.AuthenticationFilter.
-[DEBUG] security.AuthenticationFilter Marking class com.tap5.hotelbooking.security.AuthenticationFilter to be (re-)loaded
-[DEBUG] security.AuthenticationFilter BEGIN Analyzing com.tap5.hotelbooking.security.AuthenticationFilter
-[DEBUG] security.AuthenticationFilter   END Analyzing com.tap5.hotelbooking.security.AuthenticationFilter
-[DEBUG] HotelBookingModule.Authenticator Loading class com.tap5.hotelbooking.services.BasicAuthenticator.
-[DEBUG] HotelBookingModule.Authenticator Marking class com.tap5.hotelbooking.services.BasicAuthenticator to be (re-)loaded
-[DEBUG] HotelBookingModule.Authenticator BEGIN Analyzing com.tap5.hotelbooking.services.BasicAuthenticator
-[DEBUG] HotelBookingModule.Authenticator   END Analyzing com.tap5.hotelbooking.services.BasicAuthenticator
-[DEBUG] HotelBookingModule.Authenticator Invoking constructor public com.tap5.hotelbooking.services.BasicAuthenticator() (for service &apos;Authenticator&apos;)
+16:55:09.403 INFO - Preparing Firefox profile...
+16:55:10.467 INFO - Launching Firefox...
+16:55:12.901 INFO - Got result: OK,2ac5307ef388407eb56b2fb05f72d313 on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:12.919 INFO - Command request: setContext[BookHotelTest: signin, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:12.932 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:12.935 INFO - Command request: open[/signin, ] on session 2ac5307ef388407eb56b2fb05f72d313
+[DEBUG] RhModule.Authenticator Creating proxy for service Authenticator
+[DEBUG] security.AuthenticationFilter Loading class mx.com.easd.security.AuthenticationFilter.
+[DEBUG] security.AuthenticationFilter Marking class mx.com.easd.security.AuthenticationFilter to be (re-)loaded
+[DEBUG] security.AuthenticationFilter BEGIN Analyzing mx.com.easd.security.AuthenticationFilter
+[DEBUG] security.AuthenticationFilter   END Analyzing mx.com.easd.security.AuthenticationFilter
+[DEBUG] RhModule.Authenticator Loading class mx.com.easd.services.BasicAuthenticator.
+[DEBUG] RhModule.Authenticator Marking class mx.com.easd.services.BasicAuthenticator to be (re-)loaded
+[DEBUG] RhModule.Authenticator BEGIN Analyzing mx.com.easd.services.BasicAuthenticator
+[DEBUG] RhModule.Authenticator   END Analyzing mx.com.easd.services.BasicAuthenticator
+[DEBUG] RhModule.Authenticator Invoking constructor public mx.com.easd.services.BasicAuthenticator() (for service &apos;Authenticator&apos;)
 [ERROR] TapestryModule.ClientDataEncoder The symbol &apos;tapestry.hmac-passphrase&apos; has not been configured. This is used to configure hash-based message authentication of Tapestry data stored in forms, or in the URL. You application is less secure, and more vulnerable to denial-of-service attacks, when this symbol is not configured.
-12:13:21.678 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.681 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.689 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.692 INFO - Command request: type[id=username, cordenier] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.701 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.704 INFO - Command request: type[id=password, cordenier] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.717 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.719 INFO - Command request: click[//form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;], ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.760 INFO - Got result: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.763 INFO - Command request: getHtmlSource[, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.783 INFO - Got result: [HTML source] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.794 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/BookHotelTest.signin.png, background=white] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.876 INFO - Got result: [base64 encoded PNG] on session 3a2ca99bfa324006b31fa2c09a459ca2
+[INFO] AssetsModule.ResourceMinimizer Minimized classpath:org/apache/tapestry5/tapestry-console.css (851 input bytes of CSS to 622 output bytes in 78.43 ms, 26.91% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized classpath:org/apache/tapestry5/t5-alerts.css (1,575 input bytes of CSS to 1,237 output bytes in 127.48 ms, 21.46% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized classpath:org/apache/tapestry5/tree.css (1,674 input bytes of CSS to 1,245 output bytes in 111.54 ms, 25.63% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized context:static/style.css (7,018 input bytes of CSS to 5,610 output bytes in 228.69 ms, 20.06% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized context:static/reset.css (1,019 input bytes of CSS to 629 output bytes in 19.14 ms, 38.27% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized classpath:org/apache/tapestry5/default.css (9,106 input bytes of CSS to 6,987 output bytes in 270.96 ms, 23.27% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized context:static/hotel-booking.js (606 input bytes of JavaScript to 340 output bytes in 407.90 ms, 43.89% reduction)
+[INFO] AssetsModule.ResourceMinimizer Minimized classpath:org/apache/tapestry5/beanvalidator/tapestry-beanvalidator.js (1,795 input bytes of JavaScript to 705 output bytes in 442.34 ms, 60.72% reduction)
+[ERROR] AssetsModule.ResourceMinimizer JavaScript compression problems for resource &apos;core&apos; JavaScript stack, for locale en, resources=classpath:org/apache/tapestry5/underscore_1_3_3.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/prototype.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/scriptaculous.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/effects.js, classpath:org/apache/tapestry5/t5-core.js, classpath:org/apache/tapestry5/t5-spi.js, classpath:org/apache/tapestry5/t5-prototype.js, classpath:org/apache/tapestry5/t5-init.js, classpath:org/apache/tapestry5/t5-pubsub.js, classpath:org/apache/tapestry5/t5-events.js, classpath:org/apache/tapestry5/t5-dom.js, classpath:org/apache/tapestry5/t5-console.js, classpath:org/apache/tapestry5/t5-ajax.js, classpath:org/apache/tapestry5/t5-formfragment.js, classpath:org/apache/tapestry5/t5-alerts.js, classpath:org/apache/tapestry5/tapestry.js, classpath:org/apache/tapestry5/tapestry-console.js, classpath:org/apache/tapestry5/tree.js, classpath:org/apache/tapestry5/tapestry-messages.js:
+[WARN] AssetsModule.ResourceMinimizer The symbol bind is declared but is apparently never used.
+This code can probably be written in a more compact way.
+){};_.bind=function ---&gt; bind &lt;--- (func,context){var bound,args
+[WARN] AssetsModule.ResourceMinimizer The symbol maximumLength is declared but is apparently never used.
+This code can probably be written in a more compact way.
+expression,index);}else{var  ---&gt; maximumLength &lt;--- =Object.isNumber(index)?index+
+[WARN] AssetsModule.ResourceMinimizer The symbol match is declared but is apparently never used.
+This code can probably be written in a more compact way.
+);var elementStyle=element.style, ---&gt; match &lt;--- ;if(Object.isString(styles))
+[WARN] AssetsModule.ResourceMinimizer The symbol position is declared but is apparently never used.
+This code can probably be written in a more compact way.
+value);var whole=null;var  ---&gt; position &lt;--- =element.getStyle(&quot;position&quot;);var isHorizontal
+[WARN] AssetsModule.ResourceMinimizer The symbol toCSSPixels is declared but is apparently never used.
+This code can probably be written in a more compact way.
+*decimal;}return0;}function ---&gt; toCSSPixels &lt;--- (number){if(Object.isString(
+[WARN] AssetsModule.ResourceMinimizer The symbol originalElement is declared but is apparently never used.
+This code can probably be written in a more compact way.
+;}functionisDisplayed(element){var  ---&gt; originalElement &lt;--- =element;while(element&amp;&amp;element.parentNode
+[WARN] AssetsModule.ResourceMinimizer The symbol check is declared but is apparently never used.
+This code can probably be written in a more compact way.
+[],m,set,checkSet, ---&gt; check &lt;--- ,mode,extra,prune=true,contextXML
+[WARN] AssetsModule.ResourceMinimizer The symbol mode is declared but is apparently never used.
+This code can probably be written in a more compact way.
+,m,set,checkSet,check, ---&gt; mode &lt;--- ,extra,prune=true,contextXML=isXML
+[WARN] AssetsModule.ResourceMinimizer The symbol $ is declared but is apparently never used.
+This code can probably be written in a more compact way.
+{var _=T5._;var  ---&gt; $ &lt;--- =T5.$;var spi=T5.
+[WARN] AssetsModule.ResourceMinimizer The symbol spi is declared but is apparently never used.
+This code can probably be written in a more compact way.
+;var $=T5.$;var  ---&gt; spi &lt;--- =T5.spi;var exceptionContainer,iframe,
+[WARN] AssetsModule.ResourceMinimizer The symbol form is declared but is apparently never used.
+This code can probably be written in a more compact way.
+(spec.element+&quot;-hidden&quot;);var  ---&gt; form &lt;--- =$(hidden.form);var opts
+[WARN] AssetsModule.ResourceMinimizer The symbol trace is declared but is apparently never used.
+This code can probably be written in a more compact way.
+.ajaxFailure+exception,response);var  ---&gt; trace &lt;--- =exception.stack||exception.stacktrace;if
+[INFO] AssetsModule.ResourceMinimizer Minimized &apos;core&apos; JavaScript stack, for locale en, resources=classpath:org/apache/tapestry5/underscore_1_3_3.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/prototype.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/scriptaculous.js, classpath:org/apache/tapestry5/scriptaculous_1_9_0/effects.js, classpath:org/apache/tapestry5/t5-core.js, classpath:org/apache/tapestry5/t5-spi.js, classpath:org/apache/tapestry5/t5-prototype.js, classpath:org/apache/tapestry5/t5-init.js, classpath:org/apache/tapestry5/t5-pubsub.js, classpath:org/apache/tapestry5/t5-events.js, classpath:org/apache/tapestry5/t5-dom.js, classpath:org/apache/tapestry5/t5-console.js, classpath:org/apache/tapestry5/t5-ajax.js, classpath:org/apache/tapestry5/t5-formfragment.js, classpath:org/apache/tapestry5/t5-alerts.js, classpath:org/apache/tapestry5/tapestry.js, classpath:org/apache/tapestry5/tapestry-console.js, classpath:org/apache/tapestry5/tree.js, classpath:org/apache/tapestry5/tapestry-messages.js (353,818 input bytes of JavaScript to 159,577 output bytes in 1365.60 ms, 54.90% reduction)
+16:55:17.181 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.186 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.195 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.198 INFO - Command request: type[id=username, cordenier] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.209 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.213 INFO - Command request: type[id=password, cordenier] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.230 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.234 INFO - Command request: click[//form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;], ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.285 INFO - Got result: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.288 INFO - Command request: getHtmlSource[, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.304 INFO - Got result: [HTML source] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.308 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/BookHotelTest.signin.png, background=white] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.425 INFO - Got result: [base64 encoded PNG] on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
     <system-err>***
 *** Class org.apache.tapestry5.test.SeleniumLauncher is not longer used, and may be
@@ -1145,66 +1192,66 @@ Writing current page&apos;s HTML source to: /Users/eochoa/Documents/workspace_ok
 Writing current page screenshot to: /Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/BookHotelTest.signin.png
 </system-err>
   </testcase>
-  <testcase time="0.445" classname="com.tap5.hotelbooking.test.integration.BookHotelTest" name="bookProcess">
+  <testcase time="0.451" classname="mx.com.easd.test.integration.BookHotelTest" name="bookProcess">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
 	at org.testng.Assert.assertTrue(Assert.java:47)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
+	at mx.com.easd.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
 </failure>
-    <system-out>12:13:21.886 INFO - Command request: setContext[BookHotelTest: bookProcess, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.892 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:21.894 INFO - Command request: open[/view/1, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.307 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.309 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.319 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.322 INFO - Command request: isTextPresent[Marriott Courtyard, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.333 INFO - Got result: OK,false on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:17.436 INFO - Command request: setContext[BookHotelTest: bookProcess, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.441 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.444 INFO - Command request: open[/view/1, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.851 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.854 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.866 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.868 INFO - Command request: isTextPresent[Marriott Courtyard, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.892 INFO - Got result: OK,false on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
   </testcase>
-  <testcase time="0.795" classname="com.tap5.hotelbooking.test.integration.BookHotelTest" name="logout">
+  <testcase time="0.738" classname="mx.com.easd.test.integration.BookHotelTest" name="logout">
     <failure message="Authenticated user should be able to logout expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Authenticated user should be able to logout expected:&lt;true&gt; but was:&lt;false&gt;
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
+	at mx.com.easd.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
 </failure>
-    <system-out>12:13:22.344 INFO - Command request: setContext[BookHotelTest: logout, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.361 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:22.364 INFO - Command request: open[/search, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.137 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.139 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.145 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.148 INFO - Command request: isElementPresent[id=logout, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.155 INFO - Got result: OK,false on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:17.896 INFO - Command request: setContext[BookHotelTest: logout, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.931 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:17.934 INFO - Command request: open[/search, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.637 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.640 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.659 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.661 INFO - Command request: isElementPresent[id=logout, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.667 INFO - Got result: OK,false on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
   </testcase>
-  <testcase time="0.306" classname="com.tap5.hotelbooking.test.integration.SearchPageTest" name="signin">
+  <testcase time="0.408" classname="mx.com.easd.test.integration.SearchPageTest" name="signin">
     <failure message="ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]" type="com.thoughtworks.selenium.SeleniumException">com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
+	at mx.com.easd.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
 </failure>
-    <system-out>12:13:23.162 INFO - Command request: setContext[SearchPageTest: signin, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.169 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.172 INFO - Command request: open[/signin, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.302 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.306 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.311 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.314 INFO - Command request: type[id=username, cordenier] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.321 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.324 INFO - Command request: type[id=password, cordenier] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.341 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.345 INFO - Command request: click[//form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;], ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.365 INFO - Got result: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.368 INFO - Command request: getHtmlSource[, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.376 INFO - Got result: [HTML source] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.380 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.signin.png, background=white] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.473 INFO - Got result: [base64 encoded PNG] on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:18.675 INFO - Command request: setContext[SearchPageTest: signin, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.680 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.684 INFO - Command request: open[/signin, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.810 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.813 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.821 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.824 INFO - Command request: type[id=username, cordenier] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.830 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.833 INFO - Command request: type[id=password, cordenier] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.848 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.852 INFO - Command request: click[//form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;], ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.858 INFO - Got result: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.861 INFO - Command request: getHtmlSource[, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.870 INFO - Got result: [HTML source] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:18.877 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.signin.png, background=white] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.087 INFO - Got result: [base64 encoded PNG] on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
     <system-err>**********************************************************************
 Selenium failure processing command click(&quot;//form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]&quot;): com.thoughtworks.selenium.SeleniumException: ERROR: Invalid xpath [2]: //form[@id=&apos;loginForm&apos;]//input[@type=&apos;submit&apos;]**********************************************************************
@@ -1212,27 +1259,27 @@ Writing current page&apos;s HTML source to: /Users/eochoa/Documents/workspace_ok
 Writing current page screenshot to: /Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.signin.png
 </system-err>
   </testcase>
-  <testcase time="0.284" classname="com.tap5.hotelbooking.test.integration.SearchPageTest" name="wildcardSearch">
+  <testcase time="0.3" classname="mx.com.easd.test.integration.SearchPageTest" name="wildcardSearch">
     <failure message="ERROR: Element query not found" type="com.thoughtworks.selenium.SeleniumException">com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
+	at mx.com.easd.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
 </failure>
-    <system-out>12:13:23.480 INFO - Command request: setContext[SearchPageTest: wildcardSearch, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.486 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.492 INFO - Command request: open[/search, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.629 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.631 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.637 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.639 INFO - Command request: type[query, *] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.671 INFO - Got result: ERROR: Element query not found on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.680 INFO - Command request: getHtmlSource[, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.688 INFO - Got result: [HTML source] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.691 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.wildcardSearch.png, background=white] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.769 INFO - Got result: [base64 encoded PNG] on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:19.092 INFO - Command request: setContext[SearchPageTest: wildcardSearch, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.097 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.099 INFO - Command request: open[/search, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.285 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.287 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.293 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.295 INFO - Command request: type[query, *] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.301 INFO - Got result: ERROR: Element query not found on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.306 INFO - Command request: getHtmlSource[, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.312 INFO - Got result: [HTML source] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.315 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.wildcardSearch.png, background=white] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.395 INFO - Got result: [base64 encoded PNG] on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
     <system-err>**********************************************************************
 Selenium failure processing command type(&quot;query&quot;, &quot;*&quot;): com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found**********************************************************************
@@ -1240,27 +1287,27 @@ Writing current page&apos;s HTML source to: /Users/eochoa/Documents/workspace_ok
 Writing current page screenshot to: /Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.wildcardSearch.png
 </system-err>
   </testcase>
-  <testcase time="0.32" classname="com.tap5.hotelbooking.test.integration.SearchPageTest" name="changePagePerResult">
+  <testcase time="0.294" classname="mx.com.easd.test.integration.SearchPageTest" name="changePagePerResult">
     <failure message="ERROR: Element query not found" type="com.thoughtworks.selenium.SeleniumException">com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found
 	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
 	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
+	at mx.com.easd.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
 </failure>
-    <system-out>12:13:23.776 INFO - Command request: setContext[SearchPageTest: changePagePerResult, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.781 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.784 INFO - Command request: open[/search, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.954 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.956 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.960 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.962 INFO - Command request: type[query, *] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.969 INFO - Got result: ERROR: Element query not found on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.972 INFO - Command request: getHtmlSource[, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.989 INFO - Got result: [HTML source] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:23.994 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.changePagePerResult.png, background=white] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.101 INFO - Got result: [base64 encoded PNG] on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:19.401 INFO - Command request: setContext[SearchPageTest: changePagePerResult, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.408 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.410 INFO - Command request: open[/search, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.573 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.575 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.580 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.582 INFO - Command request: type[query, *] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.587 INFO - Got result: ERROR: Element query not found on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.590 INFO - Command request: getHtmlSource[, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.596 INFO - Got result: [HTML source] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.599 INFO - Command request: captureEntirePageScreenshot[/Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.changePagePerResult.png, background=white] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.700 INFO - Got result: [base64 encoded PNG] on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
     <system-err>**********************************************************************
 Selenium failure processing command type(&quot;query&quot;, &quot;*&quot;): com.thoughtworks.selenium.SeleniumException: ERROR: Element query not found**********************************************************************
@@ -1268,21 +1315,21 @@ Writing current page&apos;s HTML source to: /Users/eochoa/Documents/workspace_ok
 Writing current page screenshot to: /Users/eochoa/Documents/workspace_ok/rh/target/surefire-reports/tapestry5-hotel-booking Application Test Suite/SearchPageTest.changePagePerResult.png
 </system-err>
   </testcase>
-  <testcase time="0.222" classname="com.tap5.hotelbooking.test.integration.SearchPageTest" name="logout">
+  <testcase time="0.169" classname="mx.com.easd.test.integration.SearchPageTest" name="logout">
     <failure message="Authenticated user should be able to logout expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Authenticated user should be able to logout expected:&lt;true&gt; but was:&lt;false&gt;
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
+	at mx.com.easd.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
 </failure>
-    <system-out>12:13:24.105 INFO - Command request: setContext[SearchPageTest: logout, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.109 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.111 INFO - Command request: open[/search, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.304 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.306 INFO - Command request: waitForPageToLoad[15000, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.323 INFO - Got result: OK on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.325 INFO - Command request: isElementPresent[id=logout, ] on session 3a2ca99bfa324006b31fa2c09a459ca2
-12:13:24.331 INFO - Got result: OK,false on session 3a2ca99bfa324006b31fa2c09a459ca2
+    <system-out>16:55:19.705 INFO - Command request: setContext[SearchPageTest: logout, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.710 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.712 INFO - Command request: open[/search, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.865 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.867 INFO - Command request: waitForPageToLoad[15000, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.872 INFO - Got result: OK on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.873 INFO - Command request: isElementPresent[id=logout, ] on session 2ac5307ef388407eb56b2fb05f72d313
+16:55:19.877 INFO - Got result: OK,false on session 2ac5307ef388407eb56b2fb05f72d313
 </system-out>
   </testcase>
 </testsuite>

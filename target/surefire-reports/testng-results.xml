@@ -1,41 +1,41 @@
 <testng-results>
   <reporter-output>
   </reporter-output>
-  <suite name="tapestry5-hotel-booking Application Test Suite" duration-ms="23235" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:25Z">
+  <suite name="tapestry5-hotel-booking Application Test Suite" duration-ms="21244" started-at="2013-10-02T16:54:59Z" finished-at="2013-10-02T16:55:20Z">
     <groups>
       <group name="booking">
-        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess()" name="bookProcess" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
-        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.logout()" name="logout" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
-        <method signature="com.tap5.hotelbooking.test.integration.BookHotelTest.signin()" name="signin" class="com.tap5.hotelbooking.test.integration.BookHotelTest"/>
+        <method signature="mx.com.easd.test.integration.BookHotelTest.bookProcess()" name="bookProcess" class="mx.com.easd.test.integration.BookHotelTest"/>
+        <method signature="mx.com.easd.test.integration.BookHotelTest.logout()" name="logout" class="mx.com.easd.test.integration.BookHotelTest"/>
+        <method signature="mx.com.easd.test.integration.BookHotelTest.signin()" name="signin" class="mx.com.easd.test.integration.BookHotelTest"/>
       </group>
       <group name="search">
-        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult()" name="changePagePerResult" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
-        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.logout()" name="logout" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
-        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.signin()" name="signin" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
-        <method signature="com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch()" name="wildcardSearch" class="com.tap5.hotelbooking.test.integration.SearchPageTest"/>
+        <method signature="mx.com.easd.test.integration.SearchPageTest.changePagePerResult()" name="changePagePerResult" class="mx.com.easd.test.integration.SearchPageTest"/>
+        <method signature="mx.com.easd.test.integration.SearchPageTest.logout()" name="logout" class="mx.com.easd.test.integration.SearchPageTest"/>
+        <method signature="mx.com.easd.test.integration.SearchPageTest.signin()" name="signin" class="mx.com.easd.test.integration.SearchPageTest"/>
+        <method signature="mx.com.easd.test.integration.SearchPageTest.wildcardSearch()" name="wildcardSearch" class="mx.com.easd.test.integration.SearchPageTest"/>
       </group>
     </groups>
-    <test name="Integration Tests" duration-ms="23213" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:25Z">
-      <class name="com.tap5.hotelbooking.test.integration.BookHotelTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:18Z">
+    <test name="Integration Tests" duration-ms="21228" started-at="2013-10-02T16:54:59Z" finished-at="2013-10-02T16:55:20Z">
+      <class name="mx.com.easd.test.integration.BookHotelTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="1" started-at="2013-10-02T16:55:12Z" finished-at="2013-10-02T16:55:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5facd7f]]>
+                <![CDATA[org.testng.TestRunner@59c68782]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="17" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:18Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="17" started-at="2013-10-02T16:55:12Z" finished-at="2013-10-02T16:55:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.signin()]]>
+                <![CDATA[public void mx.com.easd.test.integration.BookHotelTest.signin()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="3317" started-at="2013-10-02T12:13:18Z" finished-at="2013-10-02T12:13:21Z">
+        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="4494" started-at="2013-10-02T16:55:12Z" finished-at="2013-10-02T16:55:17Z">
           <exception class="com.thoughtworks.selenium.SeleniumException">
             <message>
               <![CDATA[ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']]]>
@@ -47,7 +47,7 @@
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
+	at mx.com.easd.test.integration.BookHotelTest.signin(BookHotelTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,18 +84,18 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:21Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:17Z">
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="8" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:21Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="8" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess()]]>
+                <![CDATA[public void mx.com.easd.test.integration.BookHotelTest.bookProcess()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="bookProcess()" name="bookProcess" duration-ms="443" started-at="2013-10-02T12:13:21Z" finished-at="2013-10-02T12:13:22Z">
+        <test-method status="FAIL" signature="bookProcess()" name="bookProcess" duration-ms="450" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<true> but was:<false>]]>
@@ -106,7 +106,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
 	at org.testng.Assert.assertTrue(Assert.java:47)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
+	at mx.com.easd.test.integration.BookHotelTest.bookProcess(BookHotelTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,18 +143,18 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:22Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:17Z">
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="24" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:22Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="38" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.BookHotelTest.logout()]]>
+                <![CDATA[public void mx.com.easd.test.integration.BookHotelTest.logout()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="794" started-at="2013-10-02T12:13:22Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="736" started-at="2013-10-02T16:55:17Z" finished-at="2013-10-02T16:55:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Authenticated user should be able to logout expected:<true> but was:<false>]]>
@@ -164,7 +164,7 @@
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
+	at mx.com.easd.test.integration.BookHotelTest.logout(BookHotelTest.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -201,31 +201,31 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T16:55:18Z" finished-at="2013-10-02T16:55:18Z">
         </test-method>
-        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="1" started-at="2013-10-02T16:55:18Z" finished-at="2013-10-02T16:55:18Z">
         </test-method>
       </class>
-      <class name="com.tap5.hotelbooking.test.integration.SearchPageTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+      <class name="mx.com.easd.test.integration.SearchPageTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)" name="setup" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:18Z" finished-at="2013-10-02T16:55:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5facd7f]]>
+                <![CDATA[org.testng.TestRunner@59c68782]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="11" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="9" started-at="2013-10-02T16:55:18Z" finished-at="2013-10-02T16:55:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.signin()]]>
+                <![CDATA[public void mx.com.easd.test.integration.SearchPageTest.signin()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="305" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="FAIL" signature="signin()" name="signin" duration-ms="407" started-at="2013-10-02T16:55:18Z" finished-at="2013-10-02T16:55:19Z">
           <exception class="com.thoughtworks.selenium.SeleniumException">
             <message>
               <![CDATA[ERROR: Invalid xpath [2]: //form[@id='loginForm']//input[@type='submit']]]>
@@ -237,7 +237,7 @@
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
 	at org.apache.tapestry5.test.SeleniumTestCase.click(SeleniumTestCase.java:488)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
+	at mx.com.easd.test.integration.SearchPageTest.signin(SearchPageTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -274,18 +274,18 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="11" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="8" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch()]]>
+                <![CDATA[public void mx.com.easd.test.integration.SearchPageTest.wildcardSearch()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="wildcardSearch()" name="wildcardSearch" duration-ms="282" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="FAIL" signature="wildcardSearch()" name="wildcardSearch" duration-ms="299" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <exception class="com.thoughtworks.selenium.SeleniumException">
             <message>
               <![CDATA[ERROR: Element query not found]]>
@@ -297,7 +297,7 @@
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
+	at mx.com.easd.test.integration.SearchPageTest.wildcardSearch(SearchPageTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -334,18 +334,18 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="9" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:23Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="9" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult()]]>
+                <![CDATA[public void mx.com.easd.test.integration.SearchPageTest.changePagePerResult()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="changePagePerResult()" name="changePagePerResult" duration-ms="319" started-at="2013-10-02T12:13:23Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="FAIL" signature="changePagePerResult()" name="changePagePerResult" duration-ms="293" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <exception class="com.thoughtworks.selenium.SeleniumException">
             <message>
               <![CDATA[ERROR: Element query not found]]>
@@ -357,7 +357,7 @@
 	at org.apache.tapestry5.test.ErrorReportingCommandProcessor.doCommand(ErrorReportingCommandProcessor.java:69)
 	at com.thoughtworks.selenium.DefaultSelenium.type(DefaultSelenium.java:317)
 	at org.apache.tapestry5.test.SeleniumTestCase.type(SeleniumTestCase.java:1118)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
+	at mx.com.easd.test.integration.SearchPageTest.changePagePerResult(SearchPageTest.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -394,18 +394,18 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
         </test-method>
-        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="7" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)" name="indicateTestMethodName" is-config="true" duration-ms="8" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.tap5.hotelbooking.test.integration.SearchPageTest.logout()]]>
+                <![CDATA[public void mx.com.easd.test.integration.SearchPageTest.logout()]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="221" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="FAIL" signature="logout()" name="logout" duration-ms="168" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Authenticated user should be able to logout expected:<true> but was:<false>]]>
@@ -415,7 +415,7 @@
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:480)
 	at org.testng.Assert.assertTrue(Assert.java:37)
-	at com.tap5.hotelbooking.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
+	at mx.com.easd.test.integration.SearchPageTest.logout(SearchPageTest.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -452,40 +452,40 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="PASS" signature="cleanupTestMethod()" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
         </test-method>
-        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="1" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:24Z">
+        <test-method status="PASS" signature="cleanup()" name="cleanup" is-config="true" duration-ms="0" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:19Z">
         </test-method>
-        <test-method status="PASS" signature="testShutdown(org.testng.ITestContext)" name="testShutdown" is-config="true" duration-ms="690" started-at="2013-10-02T12:13:24Z" finished-at="2013-10-02T12:13:25Z">
+        <test-method status="PASS" signature="testShutdown(org.testng.ITestContext)" name="testShutdown" is-config="true" duration-ms="995" started-at="2013-10-02T16:55:19Z" finished-at="2013-10-02T16:55:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5facd7f]]>
+                <![CDATA[org.testng.TestRunner@59c68782]]>
               </value>
             </param>
           </params>
         </test-method>
       </class>
       <class name="org.apache.tapestry5.test.SeleniumLauncher">
-        <test-method status="PASS" signature="startup()" name="startup" is-config="true" duration-ms="6" depends-on-groups="beforeStartup" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:01Z">
+        <test-method status="PASS" signature="startup()" name="startup" is-config="true" duration-ms="5" depends-on-groups="beforeStartup" started-at="2013-10-02T16:54:59Z" finished-at="2013-10-02T16:54:59Z">
         </test-method>
-        <test-method status="PASS" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)" name="testStartup" is-config="true" duration-ms="16718" depends-on-groups="beforeStartup" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:18Z">
+        <test-method status="PASS" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)" name="testStartup" is-config="true" duration-ms="13256" depends-on-groups="beforeStartup" started-at="2013-10-02T16:54:59Z" finished-at="2013-10-02T16:55:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5facd7f]]>
+                <![CDATA[org.testng.TestRunner@59c68782]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Test: "Integration Tests" verbose:null[parameters:][metagroups:] [included: ][excluded: ]  classes:[Class: org.apache.tapestry5.test.SeleniumLauncher] [Class: com.tap5.hotelbooking.test.integration.BaseIntegrationTestSuite] [Class: com.tap5.hotelbooking.test.integration.BookHotelTest] [Class: com.tap5.hotelbooking.test.integration.SearchPageTest] ] ]]>
+                <![CDATA[[Test: "Integration Tests" verbose:null[parameters:][metagroups:] [included: ][excluded: ]  classes:[Class: org.apache.tapestry5.test.SeleniumLauncher] [Class: mx.com.easd.test.integration.BaseIntegrationTestSuite] [Class: mx.com.easd.test.integration.BookHotelTest] [Class: mx.com.easd.test.integration.SearchPageTest] ] ]]>
               </value>
             </param>
           </params>
         </test-method>
       </class>
     </test>
-    <test name="Unit Tests" duration-ms="0" started-at="2013-10-02T12:13:01Z" finished-at="2013-10-02T12:13:01Z">
+    <test name="Unit Tests" duration-ms="0" started-at="2013-10-02T16:54:59Z" finished-at="2013-10-02T16:54:59Z">
     </test>
   </suite>
 </testng-results>

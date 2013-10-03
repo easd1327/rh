@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" xmlns:p="tapestry:parameter">
+<head>
+	<title>Advanzer RH - ${pageTitle}</title>
+</head>
+<body id="homepage">
+	<div class="clearer"></div>
+	<div class="wrapper bs">
+		<ul class="nav">
+			<t:security.authenticated>
+				<li><span>Bienvenido ${user?.fullName}</span></li>
+				<li>
+					<a href="#" t:type="pageLink" t:page="search">Search</a>
+				</li>
+				<li>
+					<a href="#" t:type="pageLink" t:page="settings">Settings</a>
+				</li>
+				<li class="last">
+					<a href="#" t:type="actionlink" t:id="logout" id="logout">Log out</a>
+				</li>
+			</t:security.authenticated>
+		</ul>
+
+		<div id="topimage">
+			<div id="topimage">
+			<h1><img src="${context:/static/logo-advanzer.png}" alt="Advanzer" id="tapestry" /></h1>
+			</div>	
+			
+			<div id="aside">
+				easd&reg; <br></br> 
+				<a href="http://www.advanzer.com/">Advanzer de México S.A. de C.V.</a><br></br>
+				RH Aplicación! 
+			
+			</div>
+			
+			<div class="clearer"><h1>Clearer Layout</h1></div>
+
+		</div>
+		
+		<div id="bar">
+			<strong>Advanzer RH</strong>
+		</div>
+		
+		<div class="col">
+			<h3 class="first">Advanzer RH Objetivos ?</h3>
+			<p>
+				<t:delegate to="sidebar" />
+			</p>
+		</div>
+		
+		<div id="content" class="big-col">
+			
+			<t:body />
+			<div class="clearer"></div>			
+
+		</div>		
+		
+		<div class="clearer"></div>
+
+		<div id="footer">
+		    easd&reg; Created with <a href="http://tapestry.apache.org/">Apache Tapestry 5</a>, Hibernate 3 and Tapx components. 
+		</div>
+
+	</div>
+</body>
+</html>

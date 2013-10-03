@@ -3,12 +3,12 @@
 	annotations="1.5">
 	<test name="Unit Tests">
 		<packages>
-			<package name="com.tap5.hotelbooking.test.unit" />
+			<package name="mx.com.easd.test.unit" />
 		</packages>
 	</test>
 	<test name="Integration Tests" parallel="false">
 		<packages>
-			<package name="com.tap5.hotelbooking.test.integration" />
+			<package name="mx.com.easd.test.integration" />
 		</packages>
 		<classes>
 			<class name="org.apache.tapestry5.test.SeleniumLauncher" />
