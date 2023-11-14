@@ -211,7 +211,7 @@
 
 	<properties>
 		<tapx-release-version>1.1-SNAPSHOT</tapx-release-version>
-		<tapestry-release-version>5.3.8</tapestry-release-version>
+		<tapestry-release-version>5.4.0</tapestry-release-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<groupId>mx.com.easd</groupId>
